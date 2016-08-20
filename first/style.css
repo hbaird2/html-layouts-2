@@ -1,0 +1,60 @@
+body {
+  margin:20px;
+}
+
+.top-boxes {
+  display: flex;
+  height: 100px;
+}
+
+.small-box {
+  flex:1;
+  height:100%;
+  }
+
+.large-box {
+  flex:2;
+  height:100%;
+}
+
+  .red {
+    background: red;
+  }
+
+  .blue {
+    background: blue;
+  }
+
+  .grey {
+    background: grey;
+  }
+
+  .larger-boxes {
+    display:flex;
+    height: 300px;
+  }
+
+  footer {
+    display: flex;
+    width: 100%;
+    height:100px;
+    margin-top: 30px;
+  }
+
+  .smallest-box {
+    width: 80%;
+    height: 100%;
+  }
+
+  .flex-center {
+    display: flex;
+    justify-content: center;
+  }
+
+  .small-box.blue {
+    margin: 0 20px;
+  }
+
+  .text-content {
+    margin: 50px 0;
+  }
