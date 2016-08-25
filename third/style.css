@@ -1,0 +1,55 @@
+
+html, body {
+  height:100%
+  margin:0;
+  padding:0;
+}
+
+.main{
+  height: 100%
+  position: relative;
+}
+
+header {
+  width:100%;
+  background: black;
+}
+
+h3{
+  color: white;
+  margin: 10px;
+
+}
+
+.right-column {
+  width:50%;
+  float:left;
+}
+
+.left-column {
+  width:50%;
+  float:right;
+}
+
+.image {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Saturn_during_Equinox.jpg/300px-Saturn_during_Equinox.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height:150px;
+  max-width:100%;
+  background-position: center;
+  margin:30px 5px 0 5px;
+
+
+}
+
+.text {
+  margin: 5px;
+}
+
+footer {
+  height:50px;
+  width:100%;
+  background: black;
+  clear: both;
+}
